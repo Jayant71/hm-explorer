@@ -190,7 +190,7 @@ class _HomepageState extends State<Homepage> {
                     controller: _scrollController,
                     gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2,
-                      childAspectRatio: 0.92,
+                      childAspectRatio: 0.85,
                     ),
                     itemCount: state.products.length,
                     itemBuilder: (context, index) {
